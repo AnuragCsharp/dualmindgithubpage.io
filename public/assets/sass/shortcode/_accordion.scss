@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+31. Accordeon
+----------------------------------------------------------------*/
+
+.tl_accordeon {
+    .tl_accordion_item {
+        margin-bottom: 30px;
+        border: 1px solid #c1c1c1;
+        .tl_accordion_header {
+            padding-top: 22px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 21px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            svg {
+                transition: transform 0.5s;
+                path {
+                    fill: var(--common-color-black)
+                }
+            }
+            &.tl_icon > svg {
+                transform: rotate(-90deg);
+            }
+        }
+        .tl_accordion_body {
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 60px;
+            font-size: 16px;
+        }
+        &.tl_color_1 {
+            border: none;
+            .tl_accordion_header {
+                background-color: $black;
+                .tl_accordion_title {
+                    color: $white;
+                }
+            }
+            .tl_accordion_body {
+                background: rgba(241, 241, 241, 0.3);
+                font-size: 16px;
+            }
+        }
+    }
+}

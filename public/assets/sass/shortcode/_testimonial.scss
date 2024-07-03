@@ -1,0 +1,101 @@
+/*--------------------------------------------------------------
+  20. Testimonial
+----------------------------------------------------------------*/
+
+.tl_testimonial_1_wrap {
+  position: relative;
+}
+
+.tl_testimonial.tl_style_1 {
+  .tl_testimonial_title {
+    font-weight: 900;
+    font-size: 55px;
+    margin-bottom: 30px;
+  }
+  .tl_testimonial_quote_icon {
+    margin-bottom: 30px;
+  }
+  .tl_testimonial_text {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .tl_testimonial_meta {
+    display: flex;
+    align-items: center;
+  }
+  .tl_testimonial_avatar {
+    width: 80px;
+    margin-right: 25px;
+    flex: none;
+  }
+  .tl_testimonial_avatar_name {
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+  &.tl_color_1 {
+    color: $border;
+    .tl_testimonial_title,
+    .tl_testimonial_avatar_name {
+      color: $white;
+    }
+  }
+  &.tl_color_2 {
+    color: var(--body-color);
+    .tl_testimonial_title,
+    .tl_testimonial_avatar_name {
+      color: var(--common-color-black);
+    }
+  }
+}
+
+@media screen and (max-width: 1380px) {
+}
+
+@media screen and (max-width: 991px) {
+  .tl_testimonial.tl_style_1 {
+    .tl_testimonial_title {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tl_testimonial.tl_style_1 {
+    .tl_testimonial_title {
+      font-size: 32px;
+    }
+    .tl_testimonial_text {
+      font-size: 18px;
+    }
+  }
+}
+
+.tl_review__card {
+  position: relative;
+  display: flex;
+  min-width: 0px;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(164, 174, 198, 0.2);
+  --tw-bg-opacity: 1;
+  background-color: var(--primary-color);
+  background-clip: border-box;
+  --tw-text-opacity: 1;
+  color: rgb(96 105 123 / 1);
+  word-wrap: break-word;
+}
+.tl_review__card:nth-child(3n+1) { order: 1; }
+.tl_review__card:nth-child(3n+2) { order: 2; }
+.tl_review__card:nth-child(3n)   { order: 3; }
+
+.rating-container::before,
+.rating-container::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}

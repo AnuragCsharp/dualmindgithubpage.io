@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------
+  15. Posts
+----------------------------------------------------------------*/
+
+.tl_post.tl_style_1 {
+  .tl_post_thumb {
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+  .tl_post_title {
+    font-size: 22px;
+  }
+  .tl_post_thumb {
+    margin-bottom: 30px;
+  }
+  .tl_post_info {
+    padding-left: 15px;
+  }
+}
+
+.tl_post.tl_style_2 {
+  display: block;
+  .tl_post_info {
+    background-color: $black;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-right: 52px;
+    .tl_post_title {
+      color: $white;
+    }
+    p {
+      color: $border;
+      font-size: 16px;
+    }
+    .tl_section_heading_right {
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 350px) {
+}

@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+  29. Work Process
+----------------------------------------------------------------*/
+
+.tl_work.tl_work_1 {
+  .tl_card_work.tl_style_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .tl_card {
+      flex-basis: 20%;
+      @media screen and (max-width: 991px) {
+        flex-basis: 100%;
+      }
+      &:nth-child(even) {
+        margin-top: 50px;
+        @media screen and (max-width: 991px) {
+          margin-top: 0px;
+        }
+      }
+      &.tl_mt_nthchild_0:nth-child(even) {
+        margin-top: 0px;
+      }
+      &.tl_style_1 {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        @media screen and (max-width: 991px) {
+          flex-direction: row;
+        }
+        .tl_posagation {
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+        }
+        .tl_work_style_1 {
+          width: 15px;
+          height: 15px;
+          background: #ff6b00;
+          border-radius: 50%;
+        }
+        .tl_work_style_2 {
+          width: 30px;
+          height: 1px;
+          transform: rotate(90deg);
+          background: #ff6b00;
+          margin-left: -7px;
+        }
+      }
+      .tl_work_title {
+        margin-top: 50px;
+      }
+    }
+    &.tl_color_1 {
+      .tl_work_title {
+        color: $white;
+      }
+      .tl_work_subtitle {
+        color: $border;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------
+30. Blog
+----------------------------------------------------------------*/
+
+.tl_blog.tl_style_1 {
+    .tl_blog_info {
+        margin-top: 30px;
+    }
+    .tl_blog_subtitle {
+        color: var( --body-color);
+    }
+    &:hover .tl_blog_title {
+        transition: all 0.5s;
+        color: $accent;
+    }
+}
+
+.tl_andrew_jackson {
+    padding: 90px 100px;
+    .tl_andrew_jackson_text_body {
+        font-style: italic;
+        line-height: 39px;
+    }
+    .tl_footer_text.tl_color_1 {
+        color: $border;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tl_andrew_jackson {
+        padding: 60px 10px;
+        font-size: 18px;
+    }
+    .tl_share_post {
+        gap: 30px;
+        justify-content: center;
+    }
+}
