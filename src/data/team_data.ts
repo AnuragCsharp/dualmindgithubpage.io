@@ -1,11 +1,11 @@
-import team_avatar_1 from "@/assets/img/teamsimg1.jpg";
-import team_avatar_2 from "@/assets/img/teamsimg2.jpg";
-import team_avatar_3 from "@/assets/img/teamsimg3.jpg";
-import team_avatar_4 from "@/assets/img/teamsimg4.jpg";
-import team_avatar_5 from "@/assets/img/teamsimg5.jpg";
-import team_avatar_6 from "@/assets/img/teamsimg6.jpg";
-import team_avatar_7 from "@/assets/img/teamsimg7.jpg";
-import team_avatar_8 from "@/assets/img/teamsimg8.jpg";
+import team_avatar_1 from "@/assets/img/team/teamsimg1.png";
+import team_avatar_2 from "@/assets/img/team/teamsimg2.png";
+import team_avatar_3 from "@/assets/img/team/teamsimg3.png";
+import team_avatar_4 from "@/assets/img/team/teamsimg4.png";
+import team_avatar_5 from "@/assets/img/team/teamsimg5.png";
+import team_avatar_6 from "@/assets/img/team/teamsimg6.png";
+import team_avatar_7 from "@/assets/img/team/teamsimg7.png";
+import team_avatar_8 from "@/assets/img/team/teamsimg8.png";
 
 import { StaticImageData } from "next/image";
 
@@ -21,26 +21,26 @@ const team_data: DataType[] = [
 	{
 		id: 1,
 		img: team_avatar_1,
-		avatar_name: "Bruce Stewart",
-		designation: "PHP Developer",
+		avatar_name: "Aurag Sen",
+		designation: "Game Developer",
 	},
 	{
 		id: 2,
 		img: team_avatar_2,
-		avatar_name: "Joseph Whorton",
+		avatar_name: "Akash Singh",
 		designation: "UI/UX Designer",
 	},
 	{
 		id: 3,
 		img: team_avatar_3,
-		avatar_name: "Gregory Terrell",
+		avatar_name: "Anup Singh",
 		designation: "Web Developer",
 	},
 	{
 		id: 4,
 		img: team_avatar_4,
-		avatar_name: "Andrew Lopenza",
-		designation: "UX Sketch Designer",
+		avatar_name: "Sudhakar",
+		designation: "Android Developer",
 	},
 	// team data
 	{

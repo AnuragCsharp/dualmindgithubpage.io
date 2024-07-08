@@ -24,10 +24,7 @@ const Error = () => {
                 </h3>
                 <div className="tl_height_10 tl_height_lg_10"></div>
                 <p className="tl_font_16 text-center tl_m0">
-                  Fortunately, since it is mainly a client-side issue, it is relatively easy for website
-                  owners to fix the 404 error. This article will explain the possible causes of error 404 and
-                  show four effective methods to resolve it.Fortunately, since it is mainly
-                  a client-side issue, it is relatively easy for website owners to fix the 404 error.
+                The page you requested seems to be lost in the internet wilderness!.
                 </p>
                 <div className="tl_height_50 tl_height_lg_50"></div>
                 <div className="tl_center">

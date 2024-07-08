@@ -31,10 +31,11 @@ import Reviews from '@/components/reviews/Reviews';
 import ServiceHomeFour from '@/components/service/ServiceHomeFour';
 import FeatureHomeTwo from '@/components/feature/FeatureHomeTwo';
 import ServiceHomeThree from '@/components/service/ServiceHomeThree';
+import AboutHomeFour from '@/components/about/AboutHomeFour';
 
 
 // export const metadata = {
-//   title: "DualMind - Digital  Creative Agency Next js Template",
+//   title: "DualMind -  Bridging Skills, Building Careers",
 // };
 
 
@@ -62,7 +63,7 @@ const index = () => {
             {/* <PortfolioHomeOne /> */}
             {/* <AwardsHomeOne /> */}
             {/* <Testimonial /> */}
-            <FunFactHomeOne />
+            {/* <FunFactHomeOne /> */}
             <VideoHomeOne setIsVideoOpen={setIsVideoOpen} />
             {/* <BlogHomeOne /> */}
             <ServiceHomeThree/>
@@ -71,7 +72,8 @@ const index = () => {
             
             <Reviews/>
             <FaqArea />
-            <SubscribeHomeOne />
+            {/* <SubscribeHomeOne /> */}
+            <AboutHomeFour/>
             {/* <BrandHomeOne style_2={false} /> */}
           </main>
           <FooterOne />

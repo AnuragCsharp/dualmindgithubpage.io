@@ -16,28 +16,28 @@ const service_data: DataType[] = [
   {
     id: 1,
     count: 99,
-    title: `Research & Analyze`,
-    des: `Welcome to our digital agency We specialize in helping your business most`
+    title: `C# Programming`,
+    des: `Master the powerful C# language to build versatile applications.`
   },
   {
     id: 2,
     count: 85,
-    title: `Wireframing`,
-    des: `Welcome to our digital agency We specialize in helping your business most`
+    title: `Azure Certified`,
+    des: `Gain expertise in deploying and managing cloud solutions on Microsoft Azure with certifications (Az-900, Az-104).`
   },
   {
     id: 3,
     count: 80,
-    title: `UI Design`,
-    des: `Welcome to our digital agency We specialize in helping your business most`
+    title: `Unity 3D Game Dev`,
+    des: `Craft immersive games in Unity 3D, mastering shaders and integrating AI.`
   },
   {
     id: 4,
     count: 99,
+    des: `Sharpen your problem-solving skills to overcome challenges creatively.`,
     title: `Problem Solving`,
-    des: `Welcome to our digital agency We specialize in helping your business most`
   },
-]
+];
 
 const ServiceTeam = () => {
   return (

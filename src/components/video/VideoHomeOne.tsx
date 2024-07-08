@@ -6,7 +6,8 @@ const VideoHomeOne = ({style_2, setIsVideoOpen} : any) => {
 
   return (
     <>
-    {style_2 ?  <div className="tl_height_100 tl_height_lg_60"></div> : null}
+    {style_2 ?  <div className="tl_height_100 tl_height_lg_60"></div> : <div className="tl_height_100 tl_height_lg_60"></div>}
+    
       <div className="container">
         <div className="tl_parallax">
           <a

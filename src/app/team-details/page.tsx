@@ -9,7 +9,7 @@ import TeamDetailsArea from '@/components/details/TeamDetailsArea';
 
 
 // export const metadata = {
-//   title: "Team Details DualMind - Digital  Creative Agency Next js Template",
+//   title: "Team Details DualMind -  Bridging Skills, Building Careers",
 // };
 
 const index = () => {

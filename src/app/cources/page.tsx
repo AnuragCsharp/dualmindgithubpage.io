@@ -1,18 +1,20 @@
+ 
+ 'use client'
 
-'use client'
+
 import AboutHomeFour from '@/components/about/AboutHomeFour';
-import BlogDetails from '@/components/details/BlogDetails';
+import HeroService from '@/components/hero/HeroService';
+import Service from '@/components/service/Service';
+import Testimonial from '@/components/testimonial/Testimonial';
 import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import React from 'react';
 
 
-
 // export const metadata = {
-//   title: "Blog Details DualMind - Digital  Creative Agency Next js Template",
+//   title: "Service DualMind -  Bridging Skills, Building Careers",
 // };
-
 
 const index = () => {
   return (
@@ -21,7 +23,9 @@ const index = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BlogDetails />
+            <HeroService />
+            <Service />
+            <Testimonial style_service={true} />
             <AboutHomeFour />
           </main>
           <FooterOne />

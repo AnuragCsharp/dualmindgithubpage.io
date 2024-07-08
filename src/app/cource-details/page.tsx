@@ -13,7 +13,7 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import React from 'react';
 
 // export const metadata = {
-//   title: "Service Details DualMind - Digital  Creative Agency Next js Template",
+//   title: "Service Details DualMind -  Bridging Skills, Building Careers",
 // };
 
 

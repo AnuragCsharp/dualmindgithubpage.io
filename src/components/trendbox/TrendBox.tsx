@@ -3,26 +3,18 @@ import Link from "next/link";
 import TrendCard from "./TrendCard";
 
 const TrendBox = () => {
-  const [darkmode, setDarkmode] = useState(false);
-
-  useEffect(() => {
-    if (localStorage.getItem('mode')=='dark') {
-      setDarkmode(true);
-    } else {
-      setDarkmode(false);
-    }
-  });
+  const [darkmode, setDarkmode] = useState(true);
   return (
     <>
-      <section className="position-relative">
+      <section className="position-relative tl_primary_bg ">
       <div className="tl_height_150 tl_height_lg_60"></div>
         <div className="container">
           <div className="tl_section_heading tl_style_1 tl_type_2">
             <div className="tl_section_heading_text">
-              <div className="tl_section_subtitle anim_div_ShowZoom">
+              <div className="tl_section_subtitle anim_div_ShowZoom tl_white_color">
                 What we Offer
               </div>
-              <h2 className="tl_section_title anim_heading_title">
+              <h2 className="tl_section_title anim_heading_title tl_white_color">
                 Some Recent Project We Successfully Done
               </h2>
             </div>

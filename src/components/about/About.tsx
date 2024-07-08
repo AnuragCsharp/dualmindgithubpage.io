@@ -14,10 +14,11 @@ interface DataType {
   des: string;
 }
 const about_content: DataType = {
-  subtitle: `Our Agency Story`,
-  title: `How Our Agency is Pushing the Boundaries of Online Marketing and Design`,
-  des: `Digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital to drive growth and reach your goals.`,
-}
+  subtitle: `Unlock Your Programming Potential`,  
+  title: `Master the Skills to Shape the Future: Programming Education at Dual Mind`,
+  des: `We're not just a Dual Mind, we're your launchpad to a fulfilling career in programming.  We offer comprehensive training programs designed to equip you with the in-demand skills for website design and development, digital marketing, and advertising.  Whether you're a beginner or looking to upskill, our expert instructors and cutting-edge curriculum will help you navigate the ever-evolving world of digital technologies.  Join us and build the skills to design, develop, and launch the next generation of online experiences.`,
+};
+
 const { subtitle, title, des } = about_content
 
 const About = () => {
@@ -56,9 +57,7 @@ const About = () => {
                     <p className="tl_ternary_color">
                       {des}
                     </p>
-                    <p className="tl_ternary_color">
-                      {des}
-                    </p>
+                   
                   </div>
                 </div>
               </div>
