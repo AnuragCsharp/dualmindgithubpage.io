@@ -24,12 +24,6 @@ jobs:
       - name: Build and Export
         run: |
           npm run build
-          npm run export
-
-      - name: Move build files
-        run: |
-          mkdir -p gh-pages
-          cp -r nextbuild/* gh-pages/
 
       - name: Verify build files
         run: |
@@ -37,8 +31,16 @@ jobs:
           pwd
           echo "Files in current directory:"
           ls -la
-          echo "Files in gh-pages directory:"
-          ls -la gh-pages
+          echo "Generating directory tree for nextbuild"
+          find nextbuild -type f > nextbuild-directory-tree.txt
+          echo "Directory tree generated:"
+          cat nextbuild-directory-tree.txt
+
+      - name: Move build files
+        run: |
+          mkdir -p gh-pages
+          cp -r nextbuild/* gh-pages/
+          cp nextbuild-directory-tree.txt gh-pages/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
