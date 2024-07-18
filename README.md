@@ -1,9 +1,10 @@
 # DualMind next js
-
-- akashs@duck.com   
+- Anurag Sen
+- auragsen@Hotmail.com
+- CTO Dualmind 
 
 <details>
 <summary> DualMind  </summary>
--   [** DualMind **](http://teckzylabs.com  )
+-   [** DualMind **](http://dualmind.io.com  )
     DualMind Next js
 </details>
