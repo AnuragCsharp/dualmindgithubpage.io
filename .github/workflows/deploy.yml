@@ -21,9 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build and Export
-        run: |
-          npm run build
+      - name: Build project
+        run: npm run build
 
       - name: Verify build files
         run: |
@@ -31,19 +30,13 @@ jobs:
           pwd
           echo "Files in current directory:"
           ls -la
-          echo "Generating directory tree for nextbuild"
-          find nextbuild -type f > nextbuild-directory-tree.txt
-          echo "Directory tree generated:"
-          cat nextbuild-directory-tree.txt
-
-      - name: Move build files
-        run: |
-          mkdir -p gh-pages
-          cp -r nextbuild/* gh-pages/
-          cp nextbuild-directory-tree.txt gh-pages/
+          echo "Files in nextbuild directory:"
+          ls -la nextbuild
+          echo "Files in nextbuild/server/app directory:"
+          ls -la nextbuild/server/app
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PERSONALACCESSTOKEN }}
-          publish_dir: ./gh-pages
+          publish_dir: ./nextbuild/server/app
