@@ -27,7 +27,7 @@ const service_data: DataType[] = [
 
 ];
 
-const ServiceHomeOne = () => {
+const ServiceOne = () => {
   return (
     <>
       {/* <div className="tl_height_150 tl_height_lg_60"></div> */}
@@ -144,4 +144,4 @@ const ServiceHomeOne = () => {
   );
 };
 
-export default ServiceHomeOne;
+export default ServiceOne;

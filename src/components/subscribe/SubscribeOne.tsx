@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 
-const SubscribeHomeOne = () => {
+const SubscribeOne = () => {
 
   const handleSuubmit = (e : any) => {
     e.preventDefault();
@@ -60,4 +60,4 @@ const SubscribeHomeOne = () => {
   );
 };
 
-export default SubscribeHomeOne;
+export default SubscribeOne;

@@ -47,7 +47,7 @@ const service_content: DataType = {
 const { sub_title, title, service_data, notice_title, notice_des } =
   service_content;
 
-const ServiceHomeThree = () => {
+const ServiceThree = () => {
   return (
     <>
       <section>
@@ -101,4 +101,4 @@ const ServiceHomeThree = () => {
   );
 };
 
-export default ServiceHomeThree;
+export default ServiceThree;

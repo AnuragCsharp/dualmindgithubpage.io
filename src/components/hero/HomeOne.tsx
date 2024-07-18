@@ -34,7 +34,7 @@ const hero_slider: DataType[] = [
 ];
 
 
-const HeroHomeOne = () => {
+const HomeOne = () => {
   return (
     <>
       <Swiper
@@ -88,4 +88,4 @@ const HeroHomeOne = () => {
   );
 };
 
-export default HeroHomeOne;
+export default HomeOne;

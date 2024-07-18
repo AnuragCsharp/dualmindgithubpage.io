@@ -11,22 +11,26 @@ const service_data: DataType[] = [
   {
     id: 'one',
     title: "Understand",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    description: `    Lyres of he he in his sad bliss pollution though will, a concubines at beyond shameless and fabled love sighed,.
+`,
   },
   {
     id: 'Two',
     title: "Design",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    description: `    Lyres of he he in his sad bliss pollution though will, a concubines at beyond shameless and fabled love sighed,.
+`,
   },
   {
     id: 'Three',
     title: "Development",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    description: `    Lyres of he he in his sad bliss pollution though will, a concubines at beyond shameless and fabled love sighed,.
+`,
   },
   {
     id: 'Four',
     title: "Testing",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    description: `    Lyres of he he in his sad bliss pollution though will, a concubines at beyond shameless and fabled love sighed,.
+`,
   },
 ]
 const Service = () => {

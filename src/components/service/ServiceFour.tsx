@@ -1,13 +1,12 @@
 
 import React from 'react';
-import Link from 'next/link';
-import bg_img from "@/assets/img/cp_services.jpg";
 import Image from 'next/image';
+import image from "@/assets/img/cp_services.jpg";
 
 
 interface DataType {
-  sub_title: string;
   title: string;
+  des: string;
   service_data: {
     id: number;
     title: string;
@@ -15,69 +14,71 @@ interface DataType {
 }
 
 const service_content: DataType = {
-  sub_title: "Our Services",
-  title: "Comprehensive Digital Services & Transformation",
+  title: 'Our Services',
+  des: 'Comprehensive Digital Services & Transformation',
   service_data: [
     {
       id: 1,
-      title: "UI/UX Design",
+      title: " UI/UX Design",
     },
     {
       id: 2,
-      title: "Branding Design",
+      title: " Branding Design",
     },
     {
       id: 3,
-      title: "Marketing Asset",
+      title: " Marketing Asset",
     },
     {
       id: 4,
-      title: "Development",
+      title: " Development",
     },
     {
       id: 5,
-      title: "Creative Art",
+      title: " Creative Art",
     },
   ]
 }
+const { title, des, service_data } = service_content
 
-const { sub_title, title, service_data } = service_content
-
-const ServiceHomeTwo = () => {
+const ServiceFour = () => {
   return (
     <>
-      <div className="tl_height_110"></div>
-      <section className="tl_primary_bg">
-        <div className="tl_height_100 tl_height_lg_60"></div>
+      <section>
         <div className="container">
-          <div className="tl_section_heading tl_style_1 tl_color_1 tl_type_1">
+          <div className="tl_section_heading tl_style_1">
             <div className="tl_section_heading_text">
               <div className="tl_section_subtitle anim_div_ShowZoom">
-                {sub_title}
+                {title}
               </div>
               <h2 className="tl_section_title anim_heading_title">
-                {title}
+                {des}
               </h2>
             </div>
           </div>
           <div className="tl_height_100 tl_height_lg_50"></div>
           <div className="row tl_cr_pr tl_row_gap_150">
+            <div className="col-md-6 mb-4">
+              <div className="h-100">
+                <Image src={image} className="w-100 h-100 anim_div_ShowLeftSide" alt="cp_services" />
+              </div>
+            </div>
             <div className="col-md-6">
-              <div className="anim_div_ShowLeftSide">
+              <div className="anim_div_ShowRightSide">
                 {service_data.map((item, i) =>
                   <div key={i} className="tl_creative_protfolio tl_card_style_change">
                     <div className="tl_card tl_style_1 tl_color_1">
                       <div className="tl_card_right">
                         <div className="tl_card_right_in">
                           <h2 className="tl_card_title">
-                            <Link href="/service-details" className="tl_white_color">
-                              <span>0{item.id} / </span>{item.title}
-                            </Link>
+                            <a href="#" className="">
+                              <span>0{item.id} / </span> {item.title}
+                            </a>
                           </h2>
                         </div>
                       </div>
                       <div className="tl_card_link_wrap">
-                        <Link href="/service-details" className="tl_card_link tl_white_color">
+                        <a href="#" className="tl_card_link">
                           <span>
                             <svg width="20" height="20" viewBox="0 0 30 30" fill="none"
                               xmlns="http://www.w3.org/2000/svg">
@@ -100,26 +101,21 @@ const ServiceHomeTwo = () => {
                                 fill="currentColor" />
                             </svg>
                           </span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
-                    <div className="tl_hr_design tl_color_1"></div>
+                    <div className="tl_hr_design"></div>
                   </div>
                 )}
 
               </div>
             </div>
-            <div className="col-md-6 mb-4">
-              <div className="h-100">
-                <Image src={bg_img} className="w-100 h-100 anim_div_ShowRightSide" alt="cp_services" />
-              </div>
-            </div>
           </div>
         </div>
-        <div className="tl_height_100 tl_height_lg_60"></div>
       </section>
+      <div className="tl_height_145 tl_height_lg_60"></div>
     </>
   );
 };
 
-export default ServiceHomeTwo;
+export default ServiceFour;

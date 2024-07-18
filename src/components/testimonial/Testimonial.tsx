@@ -17,21 +17,21 @@ interface DataType {
 const testimonial_data: DataType[] = [
   {
     img: avatar_img,
-    name: `Delores Olivo`,
+    name: `Anurag Sen`,
     location: `From UK`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    des: `“Best Accademy LoVero diam diam est vero vero ipsum, dolor invidunt duo ipsum amet et. Eirmod at no sed lorem rebum consetetur vero eirmod, tempor sit duo kasd amet eos vero stet sadipscing lorem, ut vero takimata elitr nonumy diam no, lorem rebum ut sea eos. Duo magna ipsum at est dolor aliquyam ut, diam accusam sit elitr takimata. At lorem aliquyam justo dolores et takimata no dolor, eirmod sit stet nonumy elitr. Diam et sed consetetur amet consetetur sit. Eirmod ea consetetur vero et ut stet. Justo clita justo et stet kasd sit lorem justo, kasd accusam lorem amet gubergren elitr.`,
   },
   {
     img: avatar_img,
-    name: `Delores Olivo`,
+    name: `Anurag Sen`,
     location: `From USA`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    des: `“Best Accademy LoVero diam diam est vero vero ipsum, dolor invidunt duo ipsum amet et. Eirmod at no sed lorem rebum consetetur vero eirmod, tempor sit duo kasd amet eos vero stet sadipscing lorem, ut vero takimata elitr nonumy diam no, lorem rebum ut sea eos. Duo magna ipsum at est dolor aliquyam ut, diam accusam sit elitr takimata. At lorem aliquyam justo dolores et takimata no dolor, eirmod sit stet nonumy elitr. Diam et sed consetetur amet consetetur sit. Eirmod ea consetetur vero et ut stet. Justo clita justo et stet kasd sit lorem justo, kasd accusam lorem amet gubergren elitr.`,
   },
   {
     img: avatar_img,
-    name: `Delores Olivo`,
+    name: `Anurag Sen`,
     location: `From Astrolia`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    des: `“Best Accademy LoVero diam diam est vero vero ipsum, dolor invidunt duo ipsum amet et. Eirmod at no sed lorem rebum consetetur vero eirmod, tempor sit duo kasd amet eos vero stet sadipscing lorem, ut vero takimata elitr nonumy diam no, lorem rebum ut sea eos. Duo magna ipsum at est dolor aliquyam ut, diam accusam sit elitr takimata. At lorem aliquyam justo dolores et takimata no dolor, eirmod sit stet nonumy elitr. Diam et sed consetetur amet consetetur sit. Eirmod ea consetetur vero et ut stet. Justo clita justo et stet kasd sit lorem justo, kasd accusam lorem amet gubergren elitr.`,
   },
 ]
 

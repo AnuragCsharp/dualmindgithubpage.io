@@ -10,22 +10,24 @@ const service_data: DataType[] = [
   {
     id: 'one',
     title: "Understand",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    description: `Träne euch ich sich hinweggeschwunden die sich nach, unbekannten längst ihr nach längst lied zu liebe, gleich fühlt halbverklungnen euch.`,
   },
   {
     id: 'Two',
     title: "Design",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    description: `Träne euch ich sich hinweggeschwunden die sich nach, unbekannten längst ihr nach längst lied zu liebe, gleich fühlt halbverklungnen euch.`,
   },
   {
     id: 'Three',
     title: "Development",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    description: `Träne euch ich sich hinweggeschwunden die sich nach, unbekannten längst ihr nach längst lied zu liebe, gleich fühlt halbverklungnen euch.`,
+
   },
   {
     id: 'Four',
     title: "Testing",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    description: `Träne euch ich sich hinweggeschwunden die sich nach, unbekannten längst ihr nach längst lied zu liebe, gleich fühlt halbverklungnen euch.`,
+
   },
 ]
 

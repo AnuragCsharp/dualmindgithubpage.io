@@ -10,6 +10,8 @@ type DataType = {
 
 }
 
+// To use in Gallery
+
 const ImagePopup = ({ images, setIsOpen, photoIndex, setPhotoIndex }:  DataType ) => {
   return (
     <React.Fragment>

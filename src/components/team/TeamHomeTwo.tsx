@@ -13,7 +13,6 @@ const team_content: DataType = {
   sub_title: "Meet Our Experts",  // More engaging and informative subtitle
   title: "Empowering Your Digital Future: Our Renowned Programming Faculty", // Clearer title specific to programming education
   title_2: "Empowering Your Digital Future: Our Renowned Programming Faculty", // Clearer title specific to programming education
-  // Removed duplicate title_2
 };
 
 const { sub_title, title, title_2 } = team_content;
