@@ -28,7 +28,6 @@ jobs:
         run: |
           mkdir -p gh-pages
           cp -r nextbuild/* gh-pages/
-          cp -r nextbuild/.next/standalone/* gh-pages/
 
       - name: Verify build files
         run: |
