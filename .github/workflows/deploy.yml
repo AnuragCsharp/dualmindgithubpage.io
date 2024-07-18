@@ -27,7 +27,8 @@ jobs:
       - name: Move build files
         run: |
           mkdir -p gh-pages
-          mv nextbuild/* gh-pages/
+          cp -r nextbuild/* gh-pages/
+          cp -r nextbuild/.next/standalone/* gh-pages/
 
       - name: Verify build files
         run: |
