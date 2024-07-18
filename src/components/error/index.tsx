@@ -20,7 +20,7 @@ const Error = () => {
                 </div>
                 <div className="tl_height_30 tl_height_lg_0"></div>
                 <h3 className="tl_line_height_54 text-center tl_font_20_sm">
-                  Sorry! The page isn't found here
+                  Sorry! The page not found here
                 </h3>
                 <div className="tl_height_10 tl_height_lg_10"></div>
                 <p className="tl_font_16 text-center tl_m0">

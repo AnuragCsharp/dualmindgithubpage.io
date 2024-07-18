@@ -90,8 +90,8 @@ const ServiceFive = () => {
                 Cources Offered
               </div>
               <h2 className="tl_section_title anim_heading_title">
-                Digital Marketing Strategy <br />
-                Transformation
+                Courses we offer <br />
+                For your Digital Transformation
               </h2>
             </div>
           </div>

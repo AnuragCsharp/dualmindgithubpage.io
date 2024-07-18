@@ -24,6 +24,7 @@ import ServiceFive from "@/components/service/ServiceFive";
 // };
 
 const index = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
 
   return (

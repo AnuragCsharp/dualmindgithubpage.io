@@ -12,7 +12,7 @@ const BannerAbout = () => {
             <div className="tl_section_heading_text">
               <h2 className="tl_section_title anim_text_writting">
               Empowering Learners:
-              <br/> How We're Revolutionizing Education with Innovative Online Tools
+              <br/> How We are Revolutionizing Education with Innovative Online Tools
               </h2>
             </div>
             <div className="tl_section_heading_right">

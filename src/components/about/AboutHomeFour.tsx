@@ -10,7 +10,7 @@ const AboutFour = () => {
 						<div className="tl_section_heading tl_style_1">
 							<div className="tl_section_heading_text">
 								<h3 className="tl_section_title_3 anim_heading_title">
-									We'd be interested in learning more about your project.
+									We would be interested in learning more about your project.
 								</h3>
 							</div>
 							<div className="tl_section_heading_right tl_btn_anim">

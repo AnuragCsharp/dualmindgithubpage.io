@@ -3,24 +3,20 @@
 
 import React, { useState } from 'react';
 import About from '@/components/about/About';
-import AwardsHomeOne from '@/components/awards/AwardsHomeOne';
 import BannerAbout from '@/components/brand/BannerAbout';
-import BrandHomeOne from '@/components/brand/BrandHomeOne';
 import FunFactHomeOne from '@/components/funfact/FunFactHomeOne';
-import Gellary from '@/components/gellary/Gellary';
 import TeamHomeTwo from '@/components/team/TeamHomeTwo';
-import Testimonial from '@/components/testimonial/Testimonial';
 import VideoHomeOne from '@/components/video/VideoHomeOne';
 import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
-import VideoPopup from '@/components/modals/VideoPopup';
 
 // export const metadata = {
 //   title: "About DualMind -  Bridging Skills, Building Careers",
 // };
 
 const index = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
 
   return (

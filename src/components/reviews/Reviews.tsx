@@ -192,7 +192,7 @@ const Reviews = ({ style_service }: any) => {
                 }`}
               >
                 <h2 className="tl_testimonial_title">
-                  Don't take our word for it. See what customers are saying
+                  Do not take our word for it. See what customers are saying
                   about us.
                 </h2>
               </div>

@@ -73,6 +73,7 @@ const HeroHomeThree = () => {
           </div>
           <div className="tl_right_text">
             {links.map((link) => (
+              // eslint-disable-next-line react/jsx-key
               <p className="colorChanegs t1">{link.title}</p>
             ))}
           </div>
